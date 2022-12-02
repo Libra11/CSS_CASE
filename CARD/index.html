@@ -13,10 +13,52 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
 </head>
 
 <body>
-  css 卡片
+  <div class="container">
+    <div class="shapes">
+      <div class="circle">
+        <svg width="150" height="150" viewBox="0 0 345 345" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" class="circle-path"
+            d="M172.5 345C267.769 345 345 267.769 345 172.5C345 77.2309 267.769 0 172.5 0C77.2309 0 0 77.2309 0 172.5C0 267.769 77.2309 345 172.5 345ZM172 297C241.036 297 297 241.036 297 172C297 102.964 241.036 47 172 47C102.964 47 47 102.964 47 172C47 241.036 102.964 297 172 297Z"
+            fill="white" />
+        </svg>
+
+      </div>
+      <div class="rectangle">
+        <svg width="150" height="150" viewBox="0 0 345 345" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" class="rectangle-path"
+            d="M30 0C13.4315 0 0 13.4315 0 30V315C0 331.569 13.4314 345 30 345H315C331.568 345 345 331.569 345 315V30C345 13.4315 331.569 0 315 0H30ZM63 48C54.7157 48 48 54.7157 48 63V283C48 291.284 54.7157 298 63 298H283C291.284 298 298 291.284 298 283V63C298 54.7157 291.284 48 283 48H63Z"
+            fill="white" />
+        </svg>
+
+      </div>
+      <div class="triangle">
+        <svg width="150" height="150" viewBox="0 0 346 308" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" class="triangle-path"
+            d="M198.981 15C187.434 -4.99997 158.566 -5.00003 147.019 15L4.12503 262.5C-7.422 282.5 7.01184 307.5 30.1058 307.5H315.894C338.988 307.5 353.422 282.5 341.875 262.5L198.981 15ZM185.99 86.5C180.217 76.5 165.783 76.5001 160.01 86.5001L72.541 238C66.7675 248 73.9844 260.5 85.5314 260.5H260.469C272.016 260.5 279.232 248 273.459 238L185.99 86.5Z"
+            fill="white" />
+        </svg>
+      </div>
+    </div>
+    <div class="card">
+      <div class="top">
+        <img src="./assets/squid.svg" alt="">
+        <img src="./assets/visa.svg" alt="">
+      </div>
+      <div class="middle">
+        <span>1234 5678 9012 3456</span>
+        <img src="./assets/wifi.svg" alt="">
+      </div>
+      <div class="bottom">
+        <span>PLAYER 456</span>
+      </div>
+    </div>
+  </div>
 </body>
+<script src="index.js"></script>
 
 </html>

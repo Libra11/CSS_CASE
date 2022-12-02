@@ -5,3 +5,9 @@
  * @Description: 
  * @FilePath: /CSS_CASE/CARD/index.js
  */
+VanillaTilt.init(document.querySelector(".card"), {
+  max: 15,
+  speed: 200,
+  glare: true,
+  "max-glare": 0.5,
+});

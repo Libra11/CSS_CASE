@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+}
+html .container {
+  width: 580px;
+  height: 380px;
+  position: relative;
+  box-sizing: border-box;
+}
+html .container .shapes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+html .container .shapes .circle-path {
+  -webkit-animation: color-flash 1s ease-in-out 0s infinite;
+          animation: color-flash 1s ease-in-out 0s infinite;
+}
+@-webkit-keyframes color-flash {
+  0% {
+    fill: rgb(251, 127, 148);
+  }
+  50% {
+    fill: #fff;
+  }
+  100% {
+    fill: rgb(251, 127, 148);
+  }
+}
+@keyframes color-flash {
+  0% {
+    fill: rgb(251, 127, 148);
+  }
+  50% {
+    fill: #fff;
+  }
+  100% {
+    fill: rgb(251, 127, 148);
+  }
+}
+html .container .shapes .triangle-path {
+  -webkit-animation: color-flash 1s ease-in-out 0.5s infinite;
+          animation: color-flash 1s ease-in-out 0.5s infinite;
+}
+@keyframes color-flash {
+  0% {
+    fill: rgb(251, 127, 148);
+  }
+  50% {
+    fill: #fff;
+  }
+  100% {
+    fill: rgb(251, 127, 148);
+  }
+}
+html .container .shapes .rectangle-path {
+  -webkit-animation: color-flash 1s ease-in-out 1s infinite;
+          animation: color-flash 1s ease-in-out 1s infinite;
+}
+@keyframes color-flash {
+  0% {
+    fill: rgb(251, 127, 148);
+  }
+  50% {
+    fill: #fff;
+  }
+  100% {
+    fill: rgb(251, 127, 148);
+  }
+}
+html .container .card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(221, 221, 221, 0.2);
+  box-shadow: -10 0 10px 0 rgba(203, 203, 203, 0.37);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 40px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+html .container .card .top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+html .container .card .middle {
+  color: #CAC5C9;
+  width: 100%;
+  font-size: 24px;
+  letter-spacing: 2px;
+  padding-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+html .container .card .bottom {
+  font-size: 24px;
+  color: rgba(202, 197, 201, 0.5);
+}/*# sourceMappingURL=index.css.map */
